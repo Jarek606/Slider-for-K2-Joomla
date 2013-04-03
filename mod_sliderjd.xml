@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5.0" client="site" method="upgrade">
+    <name>Slider Nivo for Joomla and K2</name>
+    <author>Jaroslaw Dawidowicz</author>
+	<authorUrl>www.jarek.dawidowicz.com.pl</authorUrl>
+    <version>1.0.0</version>
+    <description>Slider for K2 Joomla</description>
+    <files>
+        <filename>mod_sliderjd.xml</filename>
+        <filename module="mod_sliderjd">mod_sliderjd.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+		<folder>css</folder>
+		<folder>js</folder>
+		<folder>themes</folder>
+		<folder>themes/bar</folder>
+		<folder>themes/dark</folder>
+		<folder>themes/default</folder>
+		<folder>themes/light</folder>
+    </files>
+</extension>
