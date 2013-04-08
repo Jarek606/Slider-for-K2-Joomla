@@ -12,12 +12,14 @@
         <filename>helper.php</filename>
         <filename>tmpl/default.php</filename>
         <filename>tmpl/index.html</filename>
-		<folder>css</folder>
-		<folder>js</folder>
-		<folder>themes</folder>
-		<folder>themes/bar</folder>
-		<folder>themes/dark</folder>
-		<folder>themes/default</folder>
-		<folder>themes/light</folder>
     </files>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="settings" label="Settings">
+				<field name="width" type="text" default="100%" label="Width:" description="Slider width in %(percent) or px(pixels)"></field>
+				<field name="theme" type="folderlist" default="default" label="Theme" description="Select a theme" directory="modules/mod_sliderjd/themes/" filter="" exclude="" stripext="" />
+			</fieldset>
+		</fields>
+	</config>
 </extension>
