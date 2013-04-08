@@ -25,7 +25,11 @@
 		<fields name="params">
 			<fieldset name="settings" label="Settings">
 				<field name="width" type="text" default="100%" label="Width:" description="Slider width in %(percent) or px(pixels)"></field>
-				<field name="theme" type="folderlist" default="default" label="Theme" description="Select a theme" directory="modules/mod_sliderjd/themes/" filter="" exclude="" stripext="" />
+				<field name="theme" type="folderlist" default="default" label="Theme:" description="Select a theme" directory="modules/mod_sliderjd/themes/" filter="" exclude="" stripext="" />
+				<field name="title" type="list" default="1" label="Show title?" description="Show image title/description on slider?">
+				  <option value="0">No</option>
+				  <option value="1">Yes</option>
+				</field>
 			</fieldset>
 		</fields>
 	</config>

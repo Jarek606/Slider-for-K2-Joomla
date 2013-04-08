@@ -10,7 +10,7 @@ $document->addStyleSheet(JURI::base() . 'modules/mod_sliderjd/css/nivo-slider.cs
 	<div class="slider-wrapper theme-<? echo $params->get('theme'); ?>" style="width:<? echo $params->get('width'); ?>;">
 		<div id="slider" class="nivoSlider">
 			<?php foreach ($images as $img){ ?>
-				<img src="<? echo JURI::base().'media/k2/items/src/'.md5('Image'.$img->id).'.jpg';?>" data-thumb="<? echo JURI::base().'media/k2/items/src/'.md5('Image'.$img->id).'.jpg';?>" alt="" title="<? echo $img->introtext; ?>" />
+				<img src="<? echo JURI::base().'media/k2/items/src/'.md5('Image'.$img->id).'.jpg';?>" data-thumb="<? echo JURI::base().'media/k2/items/src/'.md5('Image'.$img->id).'.jpg';?>" alt="" <? if ($params->get('title') == 1){ ?>title="<? echo $img->introtext; ?>" <? } ?> />
 			<? } ?>		
 		</div>
     </div>
