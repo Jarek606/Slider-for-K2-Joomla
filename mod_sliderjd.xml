@@ -12,6 +12,13 @@
         <filename>helper.php</filename>
         <filename>tmpl/default.php</filename>
         <filename>tmpl/index.html</filename>
+		<folder>css</folder>
+	    <folder>js</folder>
+	    <folder>themes</folder>
+		<folder>themes/bar</folder>
+		<folder>themes/dark</folder>
+		<folder>themes/default</folder>
+		<folder>themes/light</folder>
     </files>
 	
 	<config>
